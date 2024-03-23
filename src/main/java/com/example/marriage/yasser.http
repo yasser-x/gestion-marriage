@@ -1,0 +1,15 @@
+POST http://localhost:8080/Personne/add
+Content-Type: application/json
+
+{
+  "cin": "hhvjg",
+  "nom": "elomrani",
+  "prenom": "yasser"
+
+}
+
+###
+
+GET http://localhost:8080/Personne/
+Content-Type: application/json
+
